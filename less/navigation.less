@@ -12,11 +12,18 @@ header {
         width: 80%;
         max-width: 800px;
         margin: 2rem auto 2rem;
+        @media @mobile {
+            width: 90%;
+            flex-direction: column;
+          }
         
         nav {
             width: 40%;
             display: flex;
             justify-content: space-evenly;
+            @media @mobile {
+                width: 100%;
+              }
         }
         a {
             text-decoration: none;
