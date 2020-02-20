@@ -309,7 +309,7 @@ header .nav-top a {
 @media (max-width: 500px) {
   .home .content-pick .destination {
     width: 80%;
-    margin: 0 auto;
+    margin: 0 auto 3rem;
   }
 }
 .home .content-pick .destination .btn {
