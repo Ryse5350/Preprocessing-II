@@ -321,3 +321,7 @@ header .nav-top a {
   font-size: 1.6rem;
   padding: 1.2rem 0;
 }
+.home .content-pick .destination .btn:hover {
+  background-color: white;
+  color: teal;
+}
